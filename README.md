@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # ✦ PixelSpace – Creative Dashboard
 
@@ -16,6 +15,8 @@ This project demonstrates CSS Grid concepts through a modern dashboard layout, p
 - Project progress bars
 - Hover effects and pastel colors
 - Mobile-friendly design
+## project screenshot
+<img width="1920" height="1080" alt="Screenshot 2026-11-04 204635" src="https://github.com/user-attachments/assets/d1e4559b-ff2d-4bd4-a93d-89c0e000a429" />
 
 ## 🛠️ Technologies Used
 - HTML5
