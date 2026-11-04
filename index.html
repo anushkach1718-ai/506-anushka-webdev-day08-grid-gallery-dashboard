@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A colorful CSS Grid Gallery and Dashboard project.">
+  <title>PixelSpace | Creative Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">✦ PixelSpace</h2>
+
+      <p class="menu-title">MENU</p>
+      <nav>
+        <a href="#" class="active">⌂ Dashboard</a>
+        <a href="#gallery">▦ Gallery</a>
+        <a href="#activity">◷ Activity</a>
+        <a href="#projects">▣ Projects</a>
+        <a href="#settings">⚙ Settings</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="profile">
+          <div class="avatar">A</div>
+          <div>
+            <strong>Alex Morgan</strong>
+            <small>Creative Member</small>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <header class="topbar">
+        <div>
+          <p class="welcome">WELCOME BACK 👋</p>
+          <h1>Creative Dashboard</h1>
+          <p class="subtitle">Manage your creative world in one place.</p>
+        </div>
+        <button class="notification">🔔</button>
+      </header>
+
+      <!-- Statistics -->
+      <section class="stats">
+        <div class="stat-card lavender">
+          <span>📁 Total Projects</span>
+          <h2>24</h2>
+          <p>↗ 12% this month</p>
+        </div>
+
+        <div class="stat-card peach">
+          <span>🖼 Gallery Images</span>
+          <h2>156</h2>
+          <p>↗ 8% this month</p>
+        </div>
+
+        <div class="stat-card mint">
+          <span>⭐ Favorites</span>
+          <h2>38</h2>
+          <p>↗ 15% this month</p>
+        </div>
+
+        <div class="stat-card blue">
+          <span>👥 Collaborators</span>
+          <h2>12</h2>
+          <p>↗ 5% this month</p>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery-section" id="gallery">
+        <div class="section-heading">
+          <div>
+            <h2>Explore Gallery</h2>
+            <p>A collection of beautiful inspirations.</p>
+          </div>
+          <a href="#gallery">View all →</a>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item item-large">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900" alt="Beautiful sunrise over a landscape">
+            <div class="image-label">Nature Escape</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600" alt="Pink flowers">
+            <div class="image-label">Floral Dreams</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=600" alt="Mountain scenery">
+            <div class="image-label">Mountain Views</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600" alt="Ocean waves">
+            <div class="image-label">Ocean Blue</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600" alt="Misty green hills">
+            <div class="image-label">Peaceful Hills</div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Travel landscape">
+            <div class="image-label">Travel Stories</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Sections -->
+      <section class="bottom-grid">
+
+        <div class="panel" id="activity">
+          <h2>Recent Activity</h2>
+          <div class="activity">
+            <span class="activity-icon pink">🖼</span>
+            <div>
+              <strong>New gallery created</strong>
+              <small>Nature Collection · 2 hours ago</small>
+            </div>
+          </div>
+
+          <div class="activity">
+            <span class="activity-icon purple">⭐</span>
+            <div>
+              <strong>New favorite added</strong>
+              <small>Floral Dreams · 5 hours ago</small>
+            </div>
+          </div>
+
+          <div class="activity">
+            <span class="activity-icon green">👥</span>
+            <div>
+              <strong>New collaborator joined</strong>
+              <small>Alex joined your project · Yesterday</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="projects">
+          <h2>Project Progress</h2>
+
+          <div class="progress-info">
+            <span>Website Design</span>
+            <strong>85%</strong>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill fill-purple"></div>
+          </div>
+
+          <div class="progress-info">
+            <span>Photo Collection</span>
+            <strong>65%</strong>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill fill-pink"></div>
+          </div>
+
+          <div class="progress-info">
+            <span>Creative Portfolio</span>
+            <strong>45%</strong>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill fill-blue"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer id="settings">
+        Made with 💜 using HTML & CSS Grid | PixelSpace © 2026
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
