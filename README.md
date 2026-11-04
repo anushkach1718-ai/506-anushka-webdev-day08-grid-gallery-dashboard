@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # ✦ PixelSpace – Creative Dashboard
 
@@ -49,3 +50,6 @@ Anushka Chaturvedi
 
 ## 📅 Assignment
 Day 08 – CSS Grid Gallery & Dashboard
+=======
+# 506-anushka-webdev-day08-grid-gallery-dashboard
+>>>>>>> afe33f16dcb2c3b1b21d3a3302378109c536db66
